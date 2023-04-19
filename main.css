@@ -1,0 +1,86 @@
+body{
+    font-size: 30px;
+    background-color: #3d6464;
+    font-family: "Courier New";
+    color: white;
+
+}
+.title{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+#input{
+    font-size: 28px;
+    border-radius: 10px;
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.textToDo {
+    display: inline-block;
+}
+#headerToDo{
+    text-align: center;
+}
+#bodyToDo{
+    text-align: center;
+}
+
+button{
+    font-size: 28px;
+    background-color: rgba(205, 133, 63, 0);
+    color: white;
+    font-family: "Courier New";
+    border-radius: 20px;
+    border-color: rgba(255, 255, 255, 0);
+}
+button:hover{
+    background-color: rgb(224, 110, 0);
+    cursor: pointer;
+}
+
+.buttonText {
+    margin-left:  15px;
+}
+.checkbox{
+    margin-right:  15px;
+    transform: scale(1.5);
+}
+
+#bodyToDo{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#done{
+    visibility: hidden;
+    margin-bottom: 10px;
+}
+#delete{
+    visibility: hidden;
+    margin-bottom: 10px;
+}
+#clean{
+    visibility: hidden;
+    margin-bottom: 10px;
+}
+#SelectAll{
+    visibility: hidden;
+    margin-bottom: 10px;
+}
+.buttons{
+    text-align: center;
+}
+.edit{
+    font-size: 30px;
+    margin-left:  15px;
+    visibility: hidden;
+}
+.okay{
+    /*visibility: hidden;*/
+    margin-left:  15px;
+}
+.bEdit{
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0);
+}
